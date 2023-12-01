@@ -1,7 +1,7 @@
 import React from 'react'
 import CartWidget from './CartWidget'
-import '../assets/navbar.css'
-import logo from '../assets/img/logo.jpg'
+import '../assets/Navbar.css'
+
 
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
         <header className='header'>
             <div className='container'>
-                <p>{brand}</p>
+                <h1>{brand}</h1>
                 <select className='container_select'>
                     <option value="Categoria 1">Categorai 1</option>
                     <option value="Categoria 2">Categorai 2</option>
