@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/ItemLineContainer.css'
 import { useState } from 'react'
+import { Button } from 'react-bootstrap';
 
 const ItemLineContainer = () => {
     
@@ -10,8 +11,8 @@ const ItemLineContainer = () => {
     <div>
         <h1 className='mensaje'>{mensaje}</h1>
         <div className='container_elements'>
-        <button className= 'carrito' onClick={() => setMensaje('Hola gracias por llegar hasta aca')}>Click</button>
-        <button className= 'carrito' onClick={() => setMensaje('Bienvenido a mi Pagina')}>Reset</button>
+        <Button variant= "primary" onClick={() => setMensaje('DIS TIN TO pagina de E-commerce')}>Click</Button>
+        <Button variant= "primary" onClick={() => setMensaje('Bienvenido a mi Pagina')}>Reset</Button>
         
       </div>
         
